@@ -482,6 +482,9 @@
          margin-left: 50%;
          margin-top: -5%;
      }
+     a.link:hover {
+         color: #FCCA64;
+     }
      iframe {
          display: none;
      }
