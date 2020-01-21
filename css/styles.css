@@ -847,3 +847,26 @@
          margin: 0px 150px 0px 150px;
      }
  }
+ @media (min-width:768px) {
+     .hero {
+         height: 1000px;
+         background-image: url(../images/portada.png);
+         background-color: white;
+         background-size: 350px 450px;
+         background-repeat: no-repeat;
+         background-position-x: 450px;
+         margin-top: 10%;
+         margin-bottom: -20%;
+     }
+     h4 {
+         background: #ECFF00;
+     }
+ }
+ @media (min-width:768px) and (max-width: 1000px) {
+     .color-chart {
+         display: none;
+     }
+     strong {
+         font-weight: bold;
+     }
+ }
